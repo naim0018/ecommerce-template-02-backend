@@ -5,9 +5,9 @@ node_modules/
 dist/
 
 # Environment variables
-.env
-.env.local
-.env.*.local
+# .env
+# .env.local
+# .env.*.local
 
 # Logs
 logs/
@@ -18,7 +18,6 @@ yarn-error.log*
 
 # IDE files
 .idea/
-.vscode/
 *.swp
 *.swo
 
@@ -35,3 +34,7 @@ temp/
 
 # Debug files
 .debug/ 
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
+branch_structure.json
