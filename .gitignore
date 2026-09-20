@@ -34,10 +34,6 @@ temp/
 
 # Debug files
 .debug/ 
-temp_auto_push.bat
-temp_interactive_push.bat
-.gitignore
-branch_structure.json
 
 # Exclude local environment configs
 .env*
