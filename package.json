@@ -4,9 +4,9 @@
   "description": "Backend for e-commerce template",
   "main": "src/server.ts",
   "scripts": {
-    "start": "node dist/server.js",
-    "dev": "nodemon -r ts-node/register/transpile-only -r ./src/register.ts src/server.ts",
-    "build": "tsc",
+    "start": "node api.js && node dist/server.js",
+    "dev": "node api.js && nodemon -r ts-node/register/transpile-only -r ./src/register.ts src/server.ts",
+    "build": "node api.js && tsc",
     "lint": "eslint . --ext .ts",
     "test": "jest"
   },
